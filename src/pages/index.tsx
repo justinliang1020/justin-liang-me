@@ -18,9 +18,9 @@ const Home: NextPage = () => {
           <h2 className="text-3xl text-white sm:text-[2rem]">
             Software Developer
           </h2>
-          <h2>
+          {/* <h2>
             <Link href="/about-me">About Me</Link>
-          </h2>
+          </h2> */}
           <div className="flex flex-row gap-x-4">
             <a href="https://www.linkedin.com/in/justin-liang-a25143191/"><img src="/linkedin.png" className="h-8 w-8" /></a>
             <a href="https://twitter.com/justinliang1020"><img src="twitter.png" className="h-8 w-8"/></a>
