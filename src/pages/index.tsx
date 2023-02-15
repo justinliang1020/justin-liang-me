@@ -1,7 +1,9 @@
 import { type NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import linkedinLogo from "../../public/linkedin.png"
 import githubLogo from "../../public/github.png"
+import twitterLogo from "../../public/twitter.png"
 
 const Home: NextPage = () => {
   return (
@@ -19,13 +21,16 @@ const Home: NextPage = () => {
           <h2 className="text-3xl text-white sm:text-[2rem]">
             Software Developer
           </h2>
-          {/* <h2>
-            <Link href="/about-me">About Me</Link>
-          </h2> */}
           <div className="flex flex-row gap-x-4">
-            <a href="https://www.linkedin.com/in/justin-liang-a25143191/"><img src="/linkedin.png" className="h-8 w-8" /></a>
-            <a href="https://twitter.com/justinliang1020"><img src="twitter.png" className="h-8 w-8"/></a>
-            <a href="https://github.com/justinliang1020"><Image src={githubLogo} alt="github-logo" className="h-8 w-8"></Image></a>
+            <a href="https://www.linkedin.com/in/justin-liang-a25143191/">
+              <Image src={linkedinLogo} alt="linkedin-logo" className="h-8 w-8" />
+            </a>
+            <a href="https://twitter.com/justinliang1020">
+              <Image src={twitterLogo} alt="twitter-logo" className="h-8 w-8" />
+            </a>
+            <a href="https://github.com/justinliang1020">
+              <Image src={githubLogo} alt="github-logo" className="h-8 w-8" />
+            </a>
           </div>
         </div>
 
