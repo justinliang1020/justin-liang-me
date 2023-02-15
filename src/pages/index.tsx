@@ -1,6 +1,7 @@
 import { type NextPage } from "next";
 import Head from "next/head";
-import Link from "next/link";
+import Image from "next/image";
+import githubLogo from "../../public/github.png"
 
 const Home: NextPage = () => {
   return (
@@ -24,6 +25,7 @@ const Home: NextPage = () => {
           <div className="flex flex-row gap-x-4">
             <a href="https://www.linkedin.com/in/justin-liang-a25143191/"><img src="/linkedin.png" className="h-8 w-8" /></a>
             <a href="https://twitter.com/justinliang1020"><img src="twitter.png" className="h-8 w-8"/></a>
+            <a href="https://github.com/justinliang1020"><Image src={githubLogo} alt="github-logo" className="h-8 w-8"></Image></a>
           </div>
         </div>
 
